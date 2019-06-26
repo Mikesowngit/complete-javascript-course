@@ -26,18 +26,23 @@ console.log(latestCar);
 var firstName = 'Michael';
 var age = 25;
 
-console.log(firstName + 'is' + age);
+console.log(firstName + ' is ' + age);
 
 
 var job, isMarried;
 job = 'QA engineer'
 isMarried = true;
 
-console.log(firstName + 'is a exception' + job + 'but unfortunately he is not married to his beautiful partner.' + 'Will he ever get married?' + isMarried)
+console.log(firstName + ' is a exception ' + job + ' but unfortunately he is not married to his beautiful partner. ' + ' Will he ever get married? ' + isMarried)
 
+// Variable mutation 
+age = 'twenty five';
+job = 'Healthcare assistant';
 
+alert(firstName + ' is a exception ' + job + ' and is ' + age + ' years old ' + ' but unfortunately he is not married to his beautiful partner. ' + ' Will he ever get married? ' + isMarried)
 
-
+var lastName = prompt('What is his last name?');
+console.log(firstName + ' ' + lastName);
 
 
 
